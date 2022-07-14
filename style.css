@@ -17,6 +17,7 @@ header a {
     border: none;
     border-radius: 5px;
     background: #A5C7F9;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -47,16 +48,13 @@ header a:hover {
     opacity: 1;
 }
 
-.pop_up a {
+.pop_up .X {
     position: absolute;
     right: 10px;
     bottom: 90%;
     transform: translateY(90%);
-    width: 43px;
-    height: 39px;
     background: #7FAFF6;
     border-radius: 5px;
-    border: none;
     justify-content: center;
     display: flex;
     align-items: center;
